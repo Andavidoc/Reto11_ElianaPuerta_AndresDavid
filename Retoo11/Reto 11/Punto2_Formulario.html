@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="StyleSheet" href="StylePunto2.css" type="text/css">
+    <meta charset="utf-8">
+    <title>Formulario de Inscripción UDEA</title>
+    <h1><b>Formulario De Inscripción UDEA</b></h1>
+</head>
+
+<body>
+    <form action="correo@gmail.com" method="get">
+        <div class="form">
+            <div class="sections">
+                <fieldset class="fieldset">
+                    <legend>
+                        <h3>Información Personal</h3>
+                    </legend>
+                    <p><label>Nombres: </label><input class="input" type="text" name="nombre" size="27" required></p>
+                    <p><label>Apellidos: </label><input class="input" type="text" name="apellido" size="27" required>
+                    </p>
+                    <p><label>Fecha de Nacimiento:</label><input class="input" type="date" name="fechaNacimiento" required></p>
+                    <p>Genero:<br>
+                        <input class="input" type="radio" name="genero" value="femenino" required> Femenino<br>
+                        <input class="input" type="radio" name="genero" value="masculino" required=""> Masculino<br>
+                    </p>
+                </fieldset>
+            </div>
+            <div class="sections">
+                <fieldset class="fieldset">
+                    <legend>
+                        <h3>Datos de Contacto</h3>
+                    </legend>
+                    <p><label id="label">Teléfono:</label> <input class="inputContacto" type="number" name="telefono" maxlength="10" required></p>
+                    <p><label>Correo:</label> <input class="inputContacto" type="email" name="email" required></p>
+                    <p><label>Contraseña:</label> <input class="inputContacto" type="password" name="contraseña" required></p>
+                    <p><label>Dirección: </label><input class="inputContacto" type="text" name="direccion" required></p>
+                </fieldset>
+            </div>
+            <div class="sections">
+                <fieldset class="fieldset">
+                    <legend>
+                        <h3>Información Adicional</h3>
+                    </legend>
+                    <p><label>Becado: <input id="input" type="checkbox" name="becado"></label></p>
+                    <p><label>Color Distintivo: <input id="input" type="color" name="color" required></label></p>
+                    <p>Acerca De Mi:<br>
+                        <textarea class="input" name="mensaje" placeholder="Cuentanos una breve descripción sobre ti...." required></textarea>
+                    </p>
+                    <p>Area:
+                        <select class="input" name="area" required>
+                            <option class="input" value="derecho">Derecho</option>
+                            <option class="input" value="ingenieria">Ingeniería</option>
+                            <option class="input" value="medicina">Medicina</option>
+                        </select>
+                    </p>
+                </fieldset>
+            </div>
+            <p id="Pbutton"><input class="button" type="submit" value="Registrarse">
+                <input class="button" type="Reset" value="Cancelar">
+            </p>
+        </div>
+    </form>
+</body>
+
+</html>

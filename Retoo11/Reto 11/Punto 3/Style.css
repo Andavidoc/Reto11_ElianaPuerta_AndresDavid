@@ -1,0 +1,51 @@
+.conteiner-fluid {
+    padding: 2%;
+}
+
+body {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+#Renault {
+    background-color: wheat;
+}
+
+#Citroen {
+    background-color: black;
+}
+
+#Peugeot {
+    background-color: black;
+    color: white;
+}
+
+.card-text {
+    font-size: 130%;
+}
+
+.card-title {
+    font-size: 200%;
+}
+
+#h1C {
+    color: white;
+}
+
+#Rnegro {
+    background-color: black;
+    color: white;
+}
+
+#Rrojo {
+    background-color: rgb(126, 7, 7);
+    color: white;
+}
+
+#Razul {
+    background-color: rgb(26, 158, 211);
+    color: white;
+}
